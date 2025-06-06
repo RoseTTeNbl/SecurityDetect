@@ -17,7 +17,7 @@ conda activate sct # Windows
 
 #安装torch
 pip install torch==2.1.0 torchvision==0.16.0
-#or cuda(示例为下载好的cu121)
+#or cuda(先下载到本地)
 pip install cu121\torch-2.1.0+cu121-cp39-cp39-win_amd64.whl
 pip install cu121\torchvision-0.16.0+cu121-cp39-cp39-win_amd64.whl
 
@@ -39,15 +39,8 @@ pip install -r requirements.txt
 ├── start_screen.jpg  # 启动界面图片
 ├── logs/             # 日志目录
 ├── users/            # 用户人脸图片目录
-├── security_records/ # 录像和截图保存目录
-├── dataset/          # 火灾检测训练数据集
-│   ├── images/      # 训练图片
-│   └── labels/      # 标注文件
-└── fire_smoke_detection/ # 火灾检测模型
-    └── yolov8n_training/
-        └── weights/
-            └── best.pt  # 训练好的模型
-
+└── model/           
+    ├── best.pt/      #火灾烟雾检测模型   
 ```
 
 

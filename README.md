@@ -109,7 +109,7 @@ python build_face_database.py
 ```
 
 ### 4.2 训练火灾检测模型
-提供的预训练模型(`fire_smoke_detection\yolov8n_training\weights\best.pt`)是基于yolov8n微调的，如果用户有特定场景检测的需要可以自己重新微调模型。
+提供的预训练模型(`model\best.pt`)是基于yolov8n微调的，如果用户有特定场景检测的需要可以自己重新微调模型。
 1. 准备数据集：
    - 在`dataset/images`中放入训练图片
    - 在`dataset/labels`中放入对应的标注文件
